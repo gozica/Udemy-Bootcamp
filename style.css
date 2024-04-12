@@ -1,7 +1,11 @@
 
 
 h1 {
-    color: red
+    color: red;
+    font-weight: 500;
+    text-decoration: #dda0dd underline wavy;
+    font-size: 50px;
+
 }
 
 button {
