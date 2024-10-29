@@ -1,4 +1,4 @@
-//CONDITIONALS
+//IF STATEMENTS
 let random = Math.random();
 if (random < 0.5) {
   console.log("your number is less then 0.5");
