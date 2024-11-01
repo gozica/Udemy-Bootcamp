@@ -18,7 +18,6 @@ function isEven(num) {
   }
 }
 
-
 //ELSE IF
 
 const dayOfWeek = 'Wednesday';
@@ -29,24 +28,52 @@ console.log('I hate mondays');
   console.log('yay I love tuesday');
 } else if (dayOfWeek === 'Wednesday'){
     console.log('its hump day');
-    
+
   }
-  
+
 const age = 67;
 
-if (age < 5){
-  console.log('you are child. You get in free');
-} else if (age < 10){
-  console.log('You are a child. You pay $10');
-} else if (age < 65){
-  console.log('You are an adult you pay $20');
-}else if (age > 65){
-  console.log('You are a senior you pay $10');
-  
+if (age < 5) {
+  console.log("you are child. You get in free");
+} else if (age < 10) {
+  console.log("You are a child. You pay $10");
+} else if (age < 65) {
+  console.log("You are an adult you pay $20");
+} else if (age > 65) {
+  console.log("You are a senior you pay $10");
+}
 
+// // ELSE
+
+const dayOfWeek = prompt("Enter a day of week").toLocaleLowerCase();
+
+if (dayOfWeek === "monday") {
+  console.log("MEH");
+} else if (dayOfWeek === "tuesday") {
+  console.log("4 more days to go");
+} else if (dayOfWeek === "wednesday") {
+  console.log("its hump day");
+} else {
+  console.log("its almost the weekend");
+}
+
+//CHALLENGE 
+// if phrase is 'stop', you should print out 'red'
+// if phrase is 'slow', you should print out 'yellow'
+// if phrase is 'go', you should print out 'green'
+// if phrase is anything else, you should print out 'purple'
+
+const phrase = prompt('pick a phrase').toLocaleLowerCase();
+if (phrase === 'stop'){
+  console.log('red');
+} else if (phrase === 'slow'){
+  console.log('yellow');
+} else if (phrase === 'go'){
+  console.log('green');
+} else {
+  console.log('purple');
+  
 }
   
-// ELSE
 
-
-
+  
