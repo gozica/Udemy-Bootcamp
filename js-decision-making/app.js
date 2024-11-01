@@ -17,3 +17,6 @@ function isEven(num) {
     console.log(even);
   }
 }
+
+
+//ELSE IF
